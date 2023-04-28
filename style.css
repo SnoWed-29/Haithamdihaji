@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Roboto:wght@300&family=Suez+One&family=Ubuntu&display=swap");
+body {
+  background-color: #fff;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  display: flex;
+}
+
+nav {
+  background-color: #fff;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  width: 100%;
+  padding: 12px;
+  height: 80px;
+  margin-bottom: 30px;
+}
+
+.local-container {
+  width: 90%;
+  margin: auto;
+}
+.local-container ul {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.local-container li {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.local-container li a {
+  display: block;
+  color: #3AB0FF;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-size: 1.25rem;
+}
+.local-container li a:hover {
+  border-bottom: #3AB0FF 2px solid;
+  transition: 0.9s;
+}
+
+/****Main Section****/
+.leftSection {
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  background: #fff;
+  padding: 15px;
+  margin-right: 20px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.leftSection i {
+  color: #3AB0FF;
+  padding: 5px;
+}
+.leftSection #mainPic {
+  border-radius: 50%;
+  border: 2px solid #3AB0FF;
+  width: 250px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.leftSection h2 {
+  color: #414347;
+  font-weight: bolder;
+  font-family: "Ubuntu", sans-serif;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 15px;
+  margin: auto;
+  margin-bottom: 25px;
+  border-bottom: 2px solid #3AB0FF;
+}
+.leftSection p {
+  color: #000;
+  font-size: 1.1rem;
+}
+.leftSection span {
+  font-weight: bolder;
+}
+
+.rightSection {
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+.rightSection i {
+  color: #3AB0FF;
+  padding: 5px;
+}
+.rightSection span {
+  font-weight: bolder;
+}
+.rightSection h1 {
+  color: #414347;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 5px 0px;
+}
+.rightSection h2 {
+  color: #414347;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 0px 5px 0px;
+}
+.rightSection p {
+  color: #000;
+  font-size: 1.1rem;
+}
+.rightSection ul li {
+  color: #000;
+  font-size: 1.1rem;
+  padding-bottom: 8px;
+}
+
+/** project section**/
+#projectSection {
+  padding: 15px;
+  margin-right: 20px;
+}
+#projectSection .local-container {
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  margin-top: 15px;
+}
+#projectSection #pjImg {
+  width: 250px;
+}
+
+/**Conact*/
+.contact {
+  border-radius: 5px;
+  box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.75);
+  padding: 5px;
+  background: #fff;
+  padding: 15px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 30px;
+}
+.contact h2 {
+  font-weight: bold;
+  padding: 15px;
+  margin-bottom: 30px;
+  color: #3AB0FF;
+  border-bottom: 2px solid #3AB0FF;
+}
+.contact label {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+.contact .contactInput {
+  height: 40px;
+  width: 40%;
+  margin: 18px;
+}
+.contact textarea {
+  width: 100%;
+  height: 140px;
+}
+.contact button {
+  padding: 10px 20px;
+  border: 2px solid #3AB0FF;
+  background: none;
+  color: #000;
+  font-weight: bold;
+  transition: 0.4s;
+}
+.contact button:hover {
+  background-color: #3AB0FF;
+  border: 2px solid #fff;
+  color: #fff;
+  transition: 0.7s;
+}/*# sourceMappingURL=style.css.map */
